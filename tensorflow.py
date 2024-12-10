@@ -1,4 +1,5 @@
 import tensorflow as tf
+try_button = tk.Button(root, text="Try", command=try_action)
 from tensorflow.keras.layers import LSTM, Dense
 from tensorflow.keras.models import Sequential
 import numpy as np
